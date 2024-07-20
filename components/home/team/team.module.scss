@@ -1,0 +1,107 @@
+.team_row{
+    display: flex;
+    width: 96%;
+    margin: 0 auto;
+    // height: 100vh;
+    align-items: center;
+    @media screen and (max-width:700px){
+        flex-direction: column;
+        align-items: unset;
+        height: unset;
+        padding: 25px 25px 0;
+    }
+    .panel__inner{
+        margin: auto;
+        cursor: pointer;
+        @media screen and (max-width:700px){ 
+            margin-bottom: 39px;
+        }
+        &:hover{
+            .team_desc{
+                background-color: #4349EE;
+            }
+            img{
+                filter: grayscale(0);
+                
+            }
+        }
+        img{
+            width: 100%;
+            filter: grayscale(1);
+            transition: 0.4s;
+            @media screen and (max-width:700px){
+                filter: grayscale(0);
+            }
+        }
+        .team_desc{
+            background: rgba(32, 34, 40, 0.698039);
+            padding: 13px 15px;
+            margin-top: -5px;
+            transition: 0.4s;
+            @media screen and (max-width:1100px){
+                padding: 8px 10px;
+            }
+            @media screen and (max-width:700px){
+                background-color: #4349EE;
+                padding: 16px 10px;
+            }
+            h6{
+                color: #fff;
+                font-size: 2.4vw;
+                font-weight: 400;
+                padding-bottom: 12px;
+                // @media screen and (max-width:1100px){
+                //     font-size: 28px;
+                // }
+                @media screen and (max-width:700px){
+                    font-size: 20px;
+                }
+            }
+            p{
+                color: #fff;
+                font-size: 1.5vw;
+                // @media screen and (max-width:1100px){
+                //     font-size: 20px;
+                // }
+                @media screen and (max-width:700px){
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    .panel__inner__team{
+        background-color: yellow;
+        margin: 0 auto;
+        width: 12.2vw;
+        height: 100vh;
+        position: relative;
+    
+        @media screen and (max-width:700px){
+            width: 100%;
+            height: unset;
+            padding: 16px 19px;
+            margin-bottom: 37px;
+        }
+        h2{
+            transform: rotate(-90deg);
+            font-size: 3.7vw;
+            color: #000000;
+            font-weight: 500;
+            line-height: 0.9;
+            position: absolute;
+            top: 43%;
+            left: 0;
+            right: 0;
+            // @media screen and (max-width:1100px){
+            //     font-size: 48px;
+            // }
+            @media screen and (max-width:700px){
+                transform: unset;
+                position: unset;
+                font-size: 37px;
+            }
+        }
+    }
+   
+    
+}

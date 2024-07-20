@@ -1,0 +1,20 @@
+.banner_sec {
+  max-width: 1370px;
+  padding: 55px 9px;
+  margin: 0 auto;
+}
+.banner_sec .banner_text h1 {
+  font-size: 100px;
+  color: #0D0D17;
+  line-height: 1;
+  font-weight: 500;
+}
+.banner_sec .banner_text p {
+  color: #4349EE;
+  font-size: 40px;
+  padding-top: 19px;
+}
+.banner_sec .right_text p {
+  max-width: 284px;
+  margin-left: auto;
+}/*# sourceMappingURL=banner.module.css.map */

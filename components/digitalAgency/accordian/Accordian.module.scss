@@ -1,0 +1,151 @@
+.container {
+  display: flex;
+  margin-top: 15%;
+  margin-bottom: 140px;
+
+  @media (max-width: 800px) {
+    display: flex;
+    flex-direction: column;
+  }
+  @media (max-width: 700px) {
+    margin-bottom: 42px;
+  }
+
+  img {
+    width: 50%;
+    align-items: center;
+
+    @media (max-width: 800px) {
+      width: 95%;
+      margin: auto;
+    }
+  }
+  .main {
+    width: 50%;
+    padding-left: 80px;
+    padding-right: 20px;
+    margin-top: 20px;
+
+    @media (max-width: 1025px) {
+      width: 50%;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-top: 20px;
+    }
+
+    @media (max-width:800px) {
+      width: 100%;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-top: 50px;
+    }
+
+    h1 {
+      max-width: 300px;
+      margin-left: 10px;
+
+      @media (max-width: 800px) {
+        max-width: 600px;
+        margin-left: 10px;
+      }
+      @media (max-width:700px) {
+        font-size: 30px;
+        font-weight: 500;
+      }
+    }
+    h6 {
+      font-size: 17px;
+      font-weight: 500;
+      max-width: 600px;
+      padding: 20px 0;
+      line-height: 25px;
+      margin-left: 10px;
+
+      @media (max-width: 800px) {
+        font-size: 17px;
+        font-weight: 500;
+        max-width: 800px;
+        padding: 10px 0px;
+        line-height: 25px;
+        margin-left: 10px;
+        padding-right: 15px;
+      }
+    }
+    .tab {
+      padding: 10px 0;
+      max-width: 600px;
+      box-sizing: border-box;
+      margin-top: 10px;
+      margin-left: 10px;
+
+      @media (max-width: 800px) {
+        padding: 10px 0;
+      max-width: 700px;
+      box-sizing: border-box;
+      margin-top: 10px;
+      margin-left: 10px;
+      }
+      @media (max-width: 700px) {
+        padding: 10px 0;
+        max-width: 370px;
+        box-sizing: border-box;
+        margin-top: 10px;
+        margin-left: 10px;
+      }
+
+      .bar {
+        display: flex;
+        border-bottom: 2px solid hsla(0, 1%, 62%, 0.471);
+        padding-bottom: 10px;
+
+        h3 {
+          font-weight: 600;
+          margin-top: 5px;
+          cursor: pointer;
+          user-select: none;
+          @media (max-width: 700px) {
+            margin-left: 2%;
+            font-size: 15px;
+            font-weight: 500;
+          }
+        }
+        
+        span {
+          margin-left: 32%;
+          font-size: 30px;
+
+          @media (max-width: 800px) {
+            margin-left: 42%;
+            font-size: 30px;
+          }
+          @media (max-width: 700px) {
+            margin-left: 15%;
+            font-size: 30px;
+          }
+          @media (max-width: 376px) {
+            margin-left: 9%;
+            font-size: 30px;
+          }
+        }
+      }
+    }
+    .content,
+    .tab li {
+      overflow: hidden;
+      font-size: 15px;
+      line-height: 20px;
+      width: 100%;
+    }
+  }
+}
+
+// .tab ul li{
+//   font-size: 10px;
+//   list-style: square;
+//   margin-bottom: 30px;
+// }
+// .tab a{
+
+//   text-decoration: underline;
+
+// }

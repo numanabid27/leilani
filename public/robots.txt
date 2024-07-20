@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://leilani-v2.vercel.app/
+
+# Sitemaps
+Sitemap: https://leilani-v2.vercel.app/sitemap.xml

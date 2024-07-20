@@ -1,0 +1,132 @@
+.humburger_icon{
+    position: fixed;
+    right: 30px;
+    top: 24px;
+    z-index: 99999;
+    border-radius: 18px;
+    cursor: pointer;
+    width: 50px;
+    height: 47px;
+    border: none;
+    box-shadow: 0px 2px 6px #808080a1;
+    overflow: hidden; 
+    transition: 0.4s;
+    @media screen and (max-width:700px){
+        right: 21px;
+        top: 21px;
+        box-shadow: 0px 2px 6px rgb(128 128 128 / 45%);
+        position: absolute;
+    }
+    span{
+        width: 31px;
+        height: 3px;
+        background-color: #2A2A2A;
+        display: block;
+        margin: 7px 2px;
+        margin-left: auto;
+       transition: 0.4s;
+        &:nth-child(2){
+            width: 20px;
+        }
+    }
+}
+.humburger_Bg{
+    background-color: #2A2A2A;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    top: 0;
+    height: 100vh;
+    transition: all .5;
+    .humburger_logo{
+        border-bottom: 1px solid #fff;
+        margin: 0 auto;
+        max-width: 1394px;
+        padding: 20px 0px;
+        @media screen and (max-width:700px){
+            padding: 20px 0px 20px 23px;
+        }
+        a{
+            color: #fff;
+            font-weight: 400;
+            font-size: 35px;
+        }
+    }
+    ul.humburger_list{
+        @media screen and (max-width:700px){
+            padding: 0 0 0 25px;
+        }
+        li{
+            
+            .link_list{
+                font-size: 6.3vw;
+                display: flex;
+                align-items: center;
+                color: #fff;
+                transition: 0.5s;
+                @media screen and (max-width:800px){
+                    font-size: 52px;
+                }
+                &:hover{
+                    transform: translateX(40px);
+                    color: #4349EE;
+                    @media screen and (max-width:700px){
+                        transform: unset;   
+                    }
+                    img{
+                        opacity: 1;
+                    }
+                }
+                @media screen and (max-width:700px){
+                    font-size: 47px;
+                    line-height: 0.7;
+                }
+                p{
+                    display: inline-flex;
+                    margin-right: 40px;
+                    align-items: center;
+                    @media screen and (max-width:700px){
+                        font-size: 30px;
+                        align-items: flex-end;
+                        margin: 29px 0;
+                    }
+                    span{
+                        font-size: 25px;
+                        padding-right: 45px;
+                        @media screen and (max-width:700px){
+                            font-size: 15px;
+                            padding-right: 26px;
+                        }
+                    }
+                }
+                img{
+                    max-width: 6vw;
+                    margin-left: 76px;
+                    opacity: 0;
+                    transition: 0.4s;
+                    @media screen and (max-width:800px){
+                        max-width: 66px;
+                    }
+                }
+               
+            }
+        }
+    }
+    .social_icon{
+        position: absolute;
+        right: 28px;
+        bottom: 54px;
+        @media screen and (max-width:700px){     
+            bottom: 24px;
+        }
+        a{
+            display: block;
+            img{
+                max-width: 34px;
+                margin-bottom: 12px;
+            }
+        }
+        
+    }
+}

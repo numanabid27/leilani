@@ -1,0 +1,81 @@
+{
+    "team":[
+        {
+            "team": "./images/teams/azlan.png",
+            "name": "Azlan Rehman",
+            "title": "President"
+            
+          },
+          {
+            "team": "./images/teams/joshua.png",
+            "name": "Joshua Arshad",
+            "title": "CEO"
+          
+          },
+          {
+            "team": "./images/teams/aneel.png",
+            "name": "Aneel Ahmad",
+            "title": "Managing Director"
+            
+          },
+          {
+            "team": "./images/teams/zaid.png",
+            "name": "Zaid Khan",
+            "title": "Head of Marketing"
+           
+          },
+          { "teamName": "Tele-communication" },
+          {
+            "team": "./images/teams/usama.png",
+            "name": "M Usama",
+            "title": "Operational Manager",
+            "designation": "Team Lead"
+          },
+          {
+            "team": "./images/teams/ajman.png",
+            "name": "Ajman Gill",
+            "title": "Team Lead",
+           "designation": "Quality Assurance"
+          },
+          {
+            "team": "./images/teams/simon.png",
+            "name": "Simon Arshad",
+            "title": "Team Lead",
+            "designation": " Sales"
+          },
+         
+          { "teamName": "Software Development" },
+          {
+            "team": "./images/teams/awais.png",
+            "name": "Awais Ali",
+           "title": "Team Lead",
+            "designation": "MERN Stack Developer"
+          },
+          {
+            "team": "./images/teams/saad.png",
+            "name": "Saad",
+            "title": "Backend Developer",
+            "designation": "Node JS"
+          },
+          { "teamName": "Digital Agency" },
+          {
+            "team": "./images/teams/arshad.png",
+            "name": "M Arshad",
+            "title": "Team Lead",
+            "designation": "SEO "
+          },
+          { "teamName": "Game Development" },
+          {
+            "team": "./images/teams/ifran.png",
+            "name": "M Ifran",
+            "title": "Backend Lead",
+            "designation": " ASP.NET"
+          },
+          {
+            "team": "./images/teams/rimsha.png",
+            "name": "Rimsha Fatima",
+            "title": "Frontend Developer ",
+            "designation": "C#"
+          }
+    ]
+}

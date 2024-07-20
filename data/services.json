@@ -1,0 +1,94 @@
+{
+    "digital_agency": {
+        "hero_section": {
+            "main_heading": "Web Excellence, Delivered.",
+            "short_heading": "-turning visions into reality.",
+            "short_description": "Approch Creativity Experienced",
+            "image": "/images/Rectangle61.png",
+            "services": [
+                {
+                    "title": "Custom websites",
+                    "description": "Our web development service is a catalyst for digital transformation, empowering businesses with visually stunning and highly functional websites.With... Read More.",
+                    "url": "/custom-websites"
+                },
+                {
+                    "title": "Mobile App development",
+                    "description": "Our skilled developers are proficient in using industry-leading frameworks such as React Native, Flutter, and Xamarin, enabling us to build cross-plat... Read More.",
+                    "url": "/mobile-app-development"
+                },
+                {
+                    "title": "E-Commerce Websites",
+                    "description": "We employ popular E-commerce platforms like WooCommerce, Shopify, and Magento to build dynamic and scalable websites tailored to your specific busines... Read More.",
+                    "url": "/ecommerce-websites"
+                },
+                {
+                    "title": "Wordpress Customization",
+                    "description": "Whether it's creating custom designs, integrating third-party APIs, optimizing site speed, or implementing e-commerce functionality, our team leverage... Read More.",
+                    "url": "/wordpress-customization"
+                },
+                {
+                    "title": "Game Development",
+                    "description": "By leveraging programming languages such as C#, C++, or JavaScript, we ensure optimal performance and functionality. Our game development process enco... Read More.",
+                    "url": "/game-development"
+                },
+                {
+                    "title": "SEO",
+                    "description": "Our SEO experts employ industry-leading tools like Google Analytics, Moz, SEMrush, and Ahrefs to perform in-depth keyword research, analyze website pe... Read More",
+                    "url": "/seo"
+                }
+            ]
+        },
+        "detail_section": {
+            "image": "/images/Rectangle62.png",
+            "short_heading": "Lorem ipsum",
+            "heading": "We excel in the market for software development, establishing ourselves as the premier choice",
+            "description": "We stay at the forefront of technological advancements and industry best practices. Our team continuously explores emerging technologies and evaluates their potential to enhance our clients' software solutions. We embrace an agile and flexible approach, allowing us to adapt to changing project requirements and deliver results that exceed expectations."            
+        }
+    },
+    "tele_communication": {
+        "hero_section": {
+            "main_heading": "Delivering Support with Passion.",
+            "short_heading": "-Your Trust, Our Responsibility.",
+            "short_description": "Approch Creativity Experienced",
+            "image": "/images/Rectangle61.png",
+            "services": [
+                {
+                    "title": "In-bound Calls",
+                    "description": "From answering customer inquiries and processing orders to resolving issues and providing technical support, our goal is to deliver outstanding custom... Read More.",
+                    "url": "/in-bound-calls"
+                },
+                {
+                    "title": "Chat Support",
+                    "description": "With a highly skilled and dedicated team, we deliver exceptional support through chat interactions, ensuring a seamless and personalized experience fo... Read More.",
+                    "url": "/chat-support"
+                },
+                {
+                    "title": "Out-bound Calls",
+                    "description": "Through personalized and persuasive interactions, we build meaningful connections with your target audience, capturing their interest and fostering tr... Read More.",
+                    "url": "/out-bound-calls"
+                },
+                {
+                    "title": "Email Support",
+                    "description": "Our email support service is a pinnacle of efficiency and customer satisfaction, offering timely and personalized assistance to resolve inquiries and ... Read More.",
+                    "url": "/email-support"
+                },
+                {
+                    "title": "Market Survey",
+                    "description": "With a meticulous approach, we collect and analyze data, providing you with actionable insights that drive informed business decisions. Our team of ex... Read More.",
+                    "url": "/market-survey"
+                },
+                {
+                    "title": "Omni Channel",
+                    "description": "With our innovative technology and integrated approach, we enable businesses to deliver a consistent and personalized experience regardless of the cha... Read More.",
+                    "url": "/omni-channel"
+                }
+            ]
+        },
+        "detail_section": {
+            "image": "/images/Rectangle62.png",
+            "short_heading": "Lorem ipsum",
+            "heading": "We excel in the market for software development, establishing ourselves as the premier choice",
+            "description": "At our company, we prioritize understanding the needs, preferences, and pain points of telecommunication customers. By adopting a customer-centric approach, we create marketing strategies that address customer challenges, provide valuable solutions, and enhance overall customer experience. This approach fosters customer loyalty and drives long-term relationships"
+        }
+    }
+}
