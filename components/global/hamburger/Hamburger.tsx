@@ -18,7 +18,7 @@ const Hamburger = () => {
     {
       serialNum: "01",
       listName: "Blog",
-      url: "/blogs",
+      url: "#",
     },
     {
       serialNum: "02",

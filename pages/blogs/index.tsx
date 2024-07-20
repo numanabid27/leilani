@@ -47,8 +47,8 @@ const blogs = (data: any) => {
         <link rel="icon" href="/leilani_favicon.ico" />
       </Head>
       <main>
-        <Journal />
-        <Blog allBlogs={allBlogs.length < 1 ? data.data : allBlogs} />
+        {/* <Journal /> */}
+        {/* <Blog allBlogs={allBlogs.length < 1 ? data.data : allBlogs} />
         {TOTAL_BLOGS < LIMIT_PER_PAGE ? (
           <>
             <Pagination
@@ -57,7 +57,7 @@ const blogs = (data: any) => {
               handleClick={handleClick}
             />
           </>
-        ) : null}
+        ) : null} */}
       </main>
     </>
   );
@@ -65,14 +65,14 @@ const blogs = (data: any) => {
 
 export default blogs;
 
-export const getStaticProps = async () => {
-  const res = await fetch(
-    `https://leilani-blogs.vercel.app/blog?limit=${LIMIT_PER_PAGE}`
-  );
-  const data = await res.json();
-  return {
-    props: {
-      data,
-    },
-  };
-};
+// export const getStaticProps = async () => {
+//   const res = await fetch(
+//     `https://leilani-blogs.vercel.app/blog?limit=${LIMIT_PER_PAGE}`
+//   );
+//   const data = await res.json();
+//   return {
+//     props: {
+//       data,
+//     },
+//   };
+// };
